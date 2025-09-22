@@ -22,6 +22,13 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
+          glow: "hsl(var(--primary-glow))",
+        },
+        vault: {
+          blue: "hsl(var(--vault-blue))",
+          teal: "hsl(var(--vault-teal))",
+          purple: "hsl(var(--vault-purple))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -62,6 +69,16 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-vault": "var(--gradient-vault)",
+        "gradient-secure": "var(--gradient-secure)",
+        "gradient-stats": "var(--gradient-stats)",
+      },
+      boxShadow: {
+        "vault": "var(--shadow-vault)",
+        "glow": "var(--shadow-glow)",
+        "secure": "var(--shadow-secure)",
       },
       keyframes: {
         "accordion-down": {
